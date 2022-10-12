@@ -1,0 +1,333 @@
+/*Common CSS------------------------------*/
+
+/*Mobile---------------------------------*/
+@media only screen and (max-width: 570px){
+  body{
+    margin:0;
+    text-align : center;
+    padding:0;
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Merriweather-Black',serif;
+  }
+  
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    color:grey;
+    line-height: 1.5;
+  }
+  
+  .big-heading{
+    font-family: 'Merriweather-Black',serif;
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+  }
+  
+  .medium-heading{
+    font-size:1.75rem;
+  }
+  
+  .small-heading{
+    font-size:1.5rem;
+  }
+  
+  .logo-container{
+    background-color: black;
+    padding:0;
+    margin:0;
+  }
+  
+  .logo{
+    font-family:'Dancing Script',cursive;
+    font-size:1.75rem;
+    color:white;
+    text-decoration: none;
+  }
+  
+  .logo:hover{
+    color:grey;
+  }
+  
+  .top-logos{
+    color:white;
+    font-size:1.25rem;
+    padding:0 15px 0 0;
+  }
+  
+  .cart{
+    position:relative;
+    left:35%;
+  }
+  
+  .navbar {
+    margin:0px;
+    padding-bottom: 40px;
+    margin-top:-15px;
+  }
+  
+  .nav-item{
+    padding: 0 18px;
+  }
+
+ .nav-link{
+    font-size:1.25rem;
+    font-family: 'Merriweather-Light';
+    text-align:left;
+  }
+  
+  .dropdown-menu{
+    background-color:black;
+    color:white;
+  }
+  
+  .container-fluid{
+    padding:7% 10%;
+  }
+  
+  #title{
+    background-color:black;
+    width:100%;
+  }
+  
+  .titleImg{
+    width:60%;
+    border-radius:100%;
+  }
+  
+  #footer{
+    background-color:black;
+    color:white;
+  }
+  
+  .apps{
+  margin:20px 10px;
+  }
+  
+}
+
+
+/*Tablet---------------------------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px){
+  
+  body{
+    margin:0;
+    text-align : center;
+    padding:0;
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Merriweather-Black',serif;
+  }
+  
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color:grey;
+    line-height: 1.5;
+  }
+  
+  .big-heading{
+    font-family: 'Merriweather-Black',serif;
+    font-size: 2.5rem;
+    color:white;
+    text-align: left;
+  }
+  
+  .medium-heading{
+    font-size:2rem;
+    padding:20px 0 30px;
+  }
+  
+  .small-heading{
+    font-size:1.75rem;
+    padding:0 0 20px;
+  }
+  
+  .logo-container{
+    background-color: black;
+    padding:0;
+    margin:0;
+  }
+  
+  .logo{
+    font-family:'Dancing Script',cursive;
+    font-size:2.5rem;
+    color:white;
+    text-decoration: none;
+  }
+  
+  .logo:hover{
+    color:grey;
+  }
+  
+  .top-logos{
+    color:white;
+    font-size:1.5rem;
+    padding:0 20px 0 0;
+  }
+  
+  .cart{
+    margin-left:10px;
+  }
+
+  .navbar {
+    margin:0px;
+    padding-bottom: 50px;
+    margin-top:-15px;
+  }
+  
+  .nav-item{
+    padding: 0 30px;
+  }
+
+  .nav-link{
+    font-size:1.25rem;
+    font-family: 'Merriweather-Light';
+    text-align:left;
+  }
+  
+  .dropdown-menu{
+    background-color:black;
+    color:white;
+  }
+  
+  .container-fluid{
+    padding:10% 15%;
+  }
+  
+  #title{
+    background-color:black;
+    width:100%;
+    text-align: left;
+  }
+  
+  .titleImg{
+    width:90%;
+    border-radius:100%;
+    margin-left:50px;
+    margin-top:15%;
+  }
+  
+  #footer{
+    background-color:black;
+    color:white;
+  }
+  
+  .apps{
+    margin:20px 10px;
+  }
+  
+}
+/*Desktop--------------------------------*/
+@media only screen and (min-width: 1010px){
+  body{
+    margin:0;
+    text-align : center;
+    padding:0;
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Merriweather-Black',serif;
+  }
+  
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color:grey;
+    line-height: 1.5;
+  }
+  
+  .big-heading{
+    font-family: 'Merriweather-Black',serif;
+    font-size: 3.5rem;
+    color:white;
+    text-align: left;
+    padding-top: 30px;
+  }
+  
+  .medium-heading{
+    font-size:2.5rem;
+    padding:20px 0 30px;
+  }
+  
+  .small-heading{
+    font-size:2rem;
+    padding:0 0 20px;
+  }
+  
+  .logo-container{
+    background-color: black;
+    padding:0;
+    margin:0;
+  }
+  
+  .logo{
+    font-family:'Dancing Script',cursive;
+    font-size:3rem;
+    color:white;
+    text-decoration: none;
+  }
+  
+  .logo:hover{
+    color:grey;
+  }
+  
+  .top-logos{
+    color:white;
+    font-size:2rem;
+    padding:0 20px 0 0;
+  }
+  
+  .cart{
+    margin-left:20px;
+  }
+  
+  .navbar {
+    margin:0px;
+    padding-bottom: 50px;
+    margin-top:-15px;
+  }
+  
+  .nav-item{
+    padding: 0 30px;
+  }
+
+  .nav-link{
+    font-size:1.5rem;
+    font-family: 'Merriweather-Light';
+    text-align:left;
+  }
+  
+  .dropdown-menu{
+    background-color:black;
+    color:white;
+  }
+  
+  .container-fluid{
+    padding:10% 15%;
+  }
+  
+  #title{
+    background-color:black;
+    width:100%;
+    text-align: left;
+  }
+  
+  .titleImg{
+    width:300px;
+    border-radius:100%;
+    margin-left:20%;
+  }
+  
+  #footer{
+    background-color:black;
+    color:white;
+  }
+  
+  .apps{
+    margin:20px 10px;
+  }
+}
